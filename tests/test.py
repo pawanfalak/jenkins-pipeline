@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from app1.meetings import find_meeting_timeline
+from meetings import find_meeting_timeline
 import unittest
 
 class MyTest(unittest.TestCase):
